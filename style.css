@@ -47,6 +47,7 @@
 	color: #fff;
 	border: 2px solid transparent;
 }
+.btn-role:focus {outline: none;}
 
 .players-list {
 	position: absolute;
