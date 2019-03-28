@@ -1,0 +1,24 @@
+.main {
+	text-align: center;
+}
+.input-group {
+	margin: 10px 0;
+}
+.input-group label {
+	cursor: pointer;
+}
+.main-btn {
+	padding: 10px 15px;
+	background-color: #000;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 10px;
+	border: 2px solid transparent;
+	cursor: pointer;
+	transition: all .3s;
+}
+.main-btn:hover {
+	background-color: transparent;
+	color: #000;
+	border: 2px solid #000;
+}
