@@ -1,13 +1,5 @@
-.main {
-	text-align: center;
-}
-.input-group {
-	margin: 10px 0;
-}
-.input-group label {
-	cursor: pointer;
-}
-.main-btn {
+/* common */
+.btn {
 	padding: 10px 15px;
 	background-color: #000;
 	color: #fff;
@@ -17,8 +9,47 @@
 	cursor: pointer;
 	transition: all .3s;
 }
+
+
+
+/* main */
+.main {
+	position: relative;
+	text-align: center;
+}
+.input-group {
+	margin: 10px 0;
+}
+.input-group label {
+	cursor: pointer;
+}
 .main-btn:hover {
 	background-color: transparent;
 	color: #000;
 	border: 2px solid #000;
+}
+.input-add-player {
+	margin-right: 10px;
+	padding: 10px;
+	display: inline-block;
+	border: 1px solid #000;
+	border-radius: 5px;
+}
+.input-add-player:focus {outline: none;}
+.btn-add-player {
+	padding: 6px 10px;
+	background-color: transparent;
+	color: #000;
+	border: 2px solid #000;
+}
+.btn-add-player:hover {
+	background-color: #000;
+	color: #fff;
+	border: 2px solid transparent;
+}
+
+.players-list {
+	position: absolute;
+	left: 0;
+	top: 50%;
 }
