@@ -45,6 +45,10 @@ window.onload = function(){
     }
 
     function addNewPlayer() {
+        if (players.includes(inputAdd.value)) {
+            return;
+        }
+
         players.push(inputAdd.value);
         inputAdd.value = '';
 
@@ -54,9 +58,7 @@ window.onload = function(){
     }
 
     function renderNewPlayer() {
-        for (var i = 0; i < players.length; i++) {
-            playersList.insertAdjacentHTML('afterBegin', `<li>${players[i]}</li>`);
-        }
+        playersList.insertAdjacentHTML('afterBegin', `<li class="players-item">${players[players.length - 1]}</li>`);
     }
 
 }

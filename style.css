@@ -49,8 +49,13 @@
 }
 .btn-role:focus {outline: none;}
 
+
+
 .players-list {
 	position: absolute;
 	left: 0;
 	top: 50%;
+}
+.players-item {
+	text-align: left;
 }
